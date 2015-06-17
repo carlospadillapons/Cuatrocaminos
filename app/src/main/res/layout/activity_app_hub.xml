@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".Main_Portfolio">
+
+    <TextView android:text="@string/Title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/spotify_button"
+        android:onClick="Run_Spotify"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/scores_button"
+        android:onClick="Run_Scores"/>
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/library_button"
+        android:onClick="Run_Library"/>
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/build_it_button"
+        android:onClick="Run_Build_it"/>
+    <Button
+        style="@style/ButtonStyle"
+        android:text="@string/xyz_button"
+        android:onClick="Run_xyz"/>
+    <Button
+        style="@style/ButtonStyle"
+        android:background="#B71C1C"
+        android:text="@string/capstone_button"
+        android:onClick="Run_Capstone"/>
+
+
+</LinearLayout>
